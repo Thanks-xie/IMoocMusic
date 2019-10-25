@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorMain">#2d86b8</color>
+    <color name="mainColorH">#2d86b8</color>
+    <color name="lineColor">#c3c3c3</color>
+    <color name="itemColorH">#DEE1E6</color>
+    <color name="titleColor">#333333</color>
+    <color name="infoColor">#888888</color>
+    <color name="white">#ffffff</color>
+    <color name="checkboxcolor">#0099CB</color>
+    <color name="blue">#0099cc</color>
+
+</resources>

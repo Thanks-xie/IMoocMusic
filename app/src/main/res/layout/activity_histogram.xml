@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.HistogramActivity">
+
+    <include layout="@layout/nav_bar"></include>
+
+    <com.xie.com.imoocmusic.views.HistogramView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_histogram"
+        android:layout_marginRight="20dp"
+        app:histogramTitle="直方图实例"
+        app:xAxisName="天"
+        app:yAxisName="营业额(万元)"
+        app:axisTextSize="20sp"
+        app:axisTextColor="@color/infoColor"
+        />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="4dp"
+    android:background="@color/white">
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.xie.com.imoocmusic.views.WEqualsHImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@mipmap/img1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right|center_vertical"
+            android:layout_margin="4dp">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@mipmap/play_num"/>
+
+            <TextView
+                android:id="@+id/play_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10.00万"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="@dimen/titleSize"
+                android:layout_marginLeft="4dp"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+    <TextView
+        android:id="@+id/album_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="歌单名称"
+        android:textColor="@color/titleColor"
+        android:textSize="@dimen/titleSize"
+        android:padding="4dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

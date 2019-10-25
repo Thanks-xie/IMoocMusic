@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">波浪谷</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="permission_read_phone_state">允许读取手机状态</string>
+    <string name="permission_cus_title">亲爱的上帝</string>
+    <string name="permission_cus_msg">请开启这个权限否则将无法收到验证短信</string>
+    <string name="permission_on_close">拒绝</string>
+    <string name="permission_completed">权限已申请</string>
+</resources>

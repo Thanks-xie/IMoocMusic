@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/my_remind"
+        android:layout_marginTop="@dimen/marginSize"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitStart"
+            android:src="@mipmap/icon_verify_remind" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/img_head"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="验证提醒"
+            android:textColor="@color/infoColor"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/infoColor"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="55dp"/>
+    <LinearLayout
+        android:id="@+id/my_computer"
+        android:layout_marginTop="@dimen/marginSize"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitStart"
+            android:src="@mipmap/ic_my_computer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/img_head"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="我的电脑"
+            android:textColor="@color/infoColor"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/infoColor"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="55dp"/>
+    <LinearLayout
+        android:id="@+id/my_friend"
+        android:layout_marginTop="@dimen/marginSize"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitStart"
+            android:src="@mipmap/ic_secretary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/img_head"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="我的好友"
+            android:textColor="@color/infoColor"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/infoColor"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="55dp"/>
+    <LinearLayout
+        android:id="@+id/my_group"
+        android:layout_marginTop="@dimen/marginSize"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitStart"
+            android:src="@mipmap/ic_advanced_team" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/img_head"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="我的群聊"
+            android:textColor="@color/infoColor"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/infoColor"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="55dp"/>
+
+</LinearLayout>

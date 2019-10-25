@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/liveTv"
+        android:layout_marginTop="@dimen/marginSize"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitStart"
+            android:src="@mipmap/livetv" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/img_head"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="直播电视"
+            android:textColor="@color/infoColor"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/infoColor"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="55dp"/>
+    <LinearLayout
+        android:id="@+id/vodTv"
+        android:layout_marginTop="@dimen/marginSize"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitStart"
+            android:src="@mipmap/vodtv" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/img_head"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="点播电视"
+            android:textColor="@color/infoColor"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/infoColor"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="55dp"/>
+    <LinearLayout
+        android:id="@+id/liveRoom"
+        android:layout_marginTop="@dimen/marginSize"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitStart"
+            android:src="@mipmap/liveroom" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/img_head"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="直播间"
+            android:textColor="@color/infoColor"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/infoColor"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="55dp"/>
+
+
+</LinearLayout>

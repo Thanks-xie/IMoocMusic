@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/nav_bar"></include>
+
+    <LinearLayout
+        android:id="@+id/my_histogram"
+        android:layout_marginTop="@dimen/marginSize"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:onClick="toFlowLayout">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitStart"
+            android:src="@mipmap/flow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/img_head"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="FlowLayout(流式布局,自动换行)"
+            android:textColor="@color/infoColor"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/infoColor"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="55dp"/>
+   <LinearLayout
+        android:onClick="toFlexBoxLayout"
+        android:id="@+id/my_linechart"
+        android:layout_marginTop="@dimen/marginSize"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitStart"
+            android:src="@mipmap/flow1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/img_head"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="FlexBoxLayout布局"
+            android:textColor="@color/infoColor"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/infoColor"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="55dp"/>
+    <LinearLayout
+        android:onClick="toFlexBoxLayoutManager"
+        android:id="@+id/my_FlexBoxLayoutManager"
+        android:layout_marginTop="@dimen/marginSize"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitStart"
+            android:src="@mipmap/flow2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/img_head"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="FlexBoxLayoutManager布局"
+            android:textColor="@color/infoColor"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/infoColor"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="55dp"/>
+     <LinearLayout
+        android:onClick="toTagFlowLayout"
+        android:id="@+id/my_TagFlowLayout"
+        android:layout_marginTop="@dimen/marginSize"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitStart"
+            android:src="@mipmap/flow3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/img_head"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="TagFlowLayout布局"
+            android:textColor="@color/infoColor"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/infoColor"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="55dp"/>
+</LinearLayout>
