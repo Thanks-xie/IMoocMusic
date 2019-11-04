@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MPBarChartActivity">
+
+    <!--nav_bar-->
+    <include android:id="@+id/nav_bar"
+        layout="@layout/nav_bar"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:layout_below="@+id/nav_bar"
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#fff"
+        android:layout_margin="16dp"/>
+    <com.github.mikephil.charting.charts.PieChart
+        android:layout_below="@+id/pieChart"
+        android:id="@+id/pieChart2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#fff"
+        android:layout_margin="16dp"/>
+
+</RelativeLayout>

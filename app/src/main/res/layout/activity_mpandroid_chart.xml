@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MPAndroidChartActivity">
+
+    <include
+        android:id="@+id/nav_bar"
+        layout="@layout/nav_bar"/>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/nav_bar"
+        android:id="@+id/re_lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/light_gray"
+        android:onClick="onLineChartClick">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MPAndroidChart框架实例:LineChart图表"
+            android:textSize="@dimen/infoSize"
+            android:paddingLeft="@dimen/marginSize"
+            android:gravity="center_vertical" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/marginSize"
+            android:src="@mipmap/next" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/re_lineChart"
+        android:id="@+id/re_barChart"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/light_gray"
+        android:onClick="onBarChartClick">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MPAndroidChart框架实例:BarChart图表"
+            android:textSize="@dimen/infoSize"
+            android:paddingLeft="@dimen/marginSize"
+            android:gravity="center_vertical" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/marginSize"
+            android:src="@mipmap/next" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/re_barChart"
+        android:id="@+id/re_pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/light_gray"
+        android:onClick="onPieChartClick">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MPAndroidChart框架实例:PieChart图表"
+            android:textSize="@dimen/infoSize"
+            android:paddingLeft="@dimen/marginSize"
+            android:gravity="center_vertical" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/marginSize"
+            android:src="@mipmap/next" />
+    </RelativeLayout>
+
+</RelativeLayout>

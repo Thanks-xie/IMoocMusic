@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.RetrofitGetActivity">
+
+    <include
+        android:id="@+id/nav_bar"
+        layout="@layout/nav_bar"/>
+
+    <RelativeLayout
+        android:id="@+id/setting"
+        android:layout_below="@+id/nav_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <org.angmarch.views.NiceSpinner
+            android:id="@+id/nice_spinner"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"/>
+
+        <Button
+            android:layout_centerVertical="true"
+            android:id="@+id/translate_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/btnHeight"
+            android:layout_toRightOf="@+id/nice_spinner"
+            android:text="翻译"
+            android:background="@android:color/holo_red_light"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp"
+            android:background="@color/white"
+            android:hint="请输入要翻译的内容"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/text"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_text"
+            android:text="结果为:"/>
+        <TextView
+            android:layout_below="@+id/text"
+            android:id="@+id/show_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="100dp"
+            android:background="@color/white"/>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

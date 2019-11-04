@@ -89,4 +89,22 @@ public class MeActivity extends BaseActivity {
         Intent intent = new Intent(this,HTTPURLConnectionActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * Retrofit框架事例运用
+     * @param view
+     */
+    public void onRetrofitClick(View view) {
+        Intent intent = new Intent(this,RetrofitActivity.class);
+        startActivity(intent);
+    }
+
+    /**
+     * MPAndroidChart图表框架实例运用
+     * @param view
+     */
+    public void onMPAndroidChartClick(View view) {
+        Intent intent = new Intent(this,MPAndroidChartActivity.class);
+        startActivity(intent);
+    }
 }
